@@ -1,0 +1,144 @@
+{
+	"pages": [
+	{
+		"path": "pages/index/index",
+		"style": {
+			"app-plus": {
+				 "titleNView": false //禁用原生导航栏  
+			}
+		 }
+	} ,
+	{
+    "path" : "pages/detail/detail",
+    "style":{
+       "app-plus": {
+       	 "titleNView": false //禁用原生导航栏  
+       }
+    }
+  },
+	{
+	  "path" : "pages/chart/chart",
+	  "style":{
+	    "app-plus": {
+	    	 "titleNView": false //禁用原生导航栏  
+	    }
+	  }
+	},
+	{
+	  "path" : "pages/edit/edit",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/zrbwjl/zrbwjl",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/user/user",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	} ,
+	{
+    "path" : "pages/selfInfo/selfInfo",
+    "style" :{
+        "app-plus": {
+        	 "titleNView": false //禁用原生导航栏  
+        }
+    }
+            
+  },
+	{
+	  "path" : "pages/selfInfo/usernick/usernick",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/selfInfo/username/username",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/selfInfo/sex/sex",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/selfInfo/phone/phone",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	},
+	{
+	  "path" : "pages/selfInfo/test/test",
+	  "style":{
+	     "app-plus": {
+	     	 "titleNView": false //禁用原生导航栏  
+	     }
+	  }
+	}
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#000",
+		"backgroundColor": "#ffffff",
+		"list":[{
+			"pagePath": "pages/detail/detail",
+			"iconPath": "static/tabbar/detail.png",
+			"selectedIconPath": "static/tabbar/detail_active.png",
+			"text": "明细"
+		}, {
+			"pagePath": "pages/chart/chart",
+			"iconPath": "static/tabbar/report.png",
+			"selectedIconPath": "static/tabbar/report_active.png",
+			"text": "统计"
+		},
+		{
+			"pagePath": "pages/edit/edit",
+			"iconPath": "static/tabbar/plus.png",
+			"selectedIconPath": "static/tabbar/plus_active.png",
+			"text": "记一笔"
+		},
+		{
+			"pagePath": "pages/zrbwjl/zrbwjl",
+			"iconPath": "static/tabbar/zw.png",
+			"selectedIconPath": "static/tabbar/zw_active.png",
+			"text": "周梧"
+		},
+		{
+			"pagePath": "pages/user/user",
+			"iconPath": "static/tabbar/me.png",
+			"selectedIconPath": "static/tabbar/me_active.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#579af8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
